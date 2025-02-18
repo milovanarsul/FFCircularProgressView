@@ -1,4 +1,4 @@
-FFCircularProgressView [![Build Status](https://travis-ci.org/elbryan/FFCircularProgressView.png?branch=master)](https://travis-ci.org/elbryan/FFCircularProgressView)
+FFCircularProgressView 
 ======================
 
 FFCircularProgressView - An iOS 7-inspired blue circular progress view
@@ -21,25 +21,6 @@ FFCircularProgressView works on iOS version > 5 and is compatible with both ARC 
 * QuartzCore.framework
 
 You will need LLVM 3.0 or later in order to build FFCircularProgressView.
-
-## Adding FFCircularProgressView to your project
-
-There are plenty of ways to add this view to your project.
-Make sure you add the aforementioned frameworks to your project as well.
-
-### GIT submodule
-
-You have the canonical `git submodule` option. Simply issue `git submodule add https://github.com/elbryan/FFCircularProgressView.git <path>` in your root folder of your repository.
-
-### CocoaPods
-
-1. Add a pod entry to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile) dependencies file such as `pod 'FFCircularProgressView', '>= 0.1'`.
-2. Install the pod(s) by running `pod install`.
-3. Import the progress view with `#import "FFCircularProgressView.h" wherever you need in your project.
-
-### Source files
-
-Manually add the source files to your project. The files you need are 'FFCircularProgressView.h', 'FFCircularProgressView.m', 'UIColor+iOS7.h', 'UIColor+iOS7.m'.
 
 ## Usage
 
@@ -77,20 +58,3 @@ The code to draw the tick has been adapted from [GSProgressView](https://github.
 ## License
 
 This code is distributed under the terms and conditions of the [MIT license](LICENSE). 
-
-## Attributions
-
-I do not demand to be mentioned in your apps nor to receive any kind of compensation if you use this code. Yet, I would like to have feedbacks if you use it and you like it.
-
-Follow me on Twitter: [@elbryanlos](https://twitter.com/elbryanlos)
-
-## Third Party Bindings
-
-### Android
-
-Are you an Android developer and you love this progress view? No problem! A couple of folks ported it to Android OS and you can get it [here](https://github.com/torryharris/TH-ProgressButton).
-  		  
-### React Native
-You may now use this library with [React Native](https://github.com/facebook/react-native) via the module [here](https://github.com/prscX/react-native-download-button)
-
-Thank you guys!
